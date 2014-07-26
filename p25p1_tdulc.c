@@ -60,7 +60,7 @@ swap_hex_words(char* dodeca_data, char* dodeca_parity)
 }
 
 /**
- * Read an hex word, its parity bits and attempts to error correct it using the Hamming algorithm.
+ * Read an hex word, its parity bits and attempts to error correct it using the Golay algorithm.
  */
 static void
 read_and_correct_dodeca_word (dsd_opts* opts, dsd_state* state, char* dodeca, int* status_count,
